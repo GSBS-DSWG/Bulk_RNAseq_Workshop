@@ -135,6 +135,9 @@ If you have questions or want the full example data and outputs included in this
 
 Happy exploring your bulk RNA-seq data!
 
+---
+
+[⬅ Back to Workshops Homepage](https://github.com/GSBS-DSWG/homepage)
 
 
 
