@@ -3,13 +3,10 @@
 **Instructor:** [Dr. Aatish Thennavan](https://scholar.google.com/citations?user=g0PzOkwAAAAJ&hl=en)  
 **Topic:** Introduction to bulk RNA-seq analysis using `edgeR`, `limma`, and `DESeq2`
 
----
-
 ## Overview
 
 This workshop introduces key steps in the analysis of bulk RNA-seq data, including data preprocessing, normalization, differential expression analysis, visualization, and pathway enrichment. All analyses are performed in R using standard Bioconductor packages.
 
----
 
 ## Project structure
 ```
@@ -24,8 +21,6 @@ Bulk_RNAseq_Workshop/
 └── README.md                          # This file    
 ```  
 
----
-
 ## Dataset
 
 We analyze paired-end RNA-seq libraries from human lung cancer samples:
@@ -36,8 +31,6 @@ Files used in the workshop:
 
 - **Gene-level count matrix** (STAR / Salmon output)  
 - **Sample annotation file** containing metadata and experimental conditions (e.g., KL vs KP)
-
----
 
 ## Required R packages
 
@@ -50,7 +43,7 @@ Core libraries used throughout the workshop:
 
 Full installation instructions and the package-install code block are included in the R Markdown file for this workshop.
 
----
+
 
 ## Workflow summary
 
@@ -107,7 +100,7 @@ Three normalization strategies are demonstrated and compared with boxplots:
 - Compute GSVA enrichment scores and run differential testing (e.g., `limma`) on pathway scores.  
 - Visualize pathway-level heatmaps for top pathways.
 
----
+
 
 ## Learning goals
 
@@ -121,7 +114,7 @@ By the end of this workshop, participants should be able to:
 - Visualize differential expression results (volcano plots, heatmaps).  
 - Perform pathway enrichment with GSEA and GSVA.
 
----
+
 
 ## Notes & tips
 
@@ -138,9 +131,9 @@ If you have questions or want the full example data and outputs included in this
 
 Happy exploring your bulk RNA-seq data!
 
----
 
 [⬅ Back to Workshops Homepage](https://github.com/GSBS-DSWG/homepage)
+
 
 
 
