@@ -11,6 +11,21 @@ This workshop introduces key steps in the analysis of bulk RNA-seq data, includi
 
 ---
 
+## Project structure
+```
+Bulk_RNAseq_Workshop/
+├── slides/                            # PDF or PowerPoint slides for the workshop  
+│ 
+├── code/                  
+│   └── BulkRNAseq_Workshop_2025.Rmd   # Full workshop R Markdown with code
+│  
+├── data/                              # Example datasets used in the workshop   
+│ 
+└── README.md                          # This file    
+```  
+
+---
+
 ## Dataset
 
 We analyze paired-end RNA-seq libraries from human lung cancer samples:
@@ -93,18 +108,6 @@ Three normalization strategies are demonstrated and compared with boxplots:
 - Visualize pathway-level heatmaps for top pathways.
 
 ---
-## Example folder structure
-
-Bulk_RNAseq_Workshop_2025/  
-│  
-├── BulkRNAseq_Workshop_2025.Rmd # Full workshop R Markdown with code  
-├── example_counts_matrix.txt # (optional) example counts input  
-├── sample_annotation.txt # metadata/annotation used in workshop  
-├── results/ # output tables and plots (optional)  
-└── README.md # This file
-
-
----
 
 ## Learning goals
 
@@ -138,6 +141,7 @@ Happy exploring your bulk RNA-seq data!
 ---
 
 [⬅ Back to Workshops Homepage](https://github.com/GSBS-DSWG/homepage)
+
 
 
 
